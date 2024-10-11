@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance e-sports</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <h1 class="navbar-brand m-0 section-title fs-4">
+                    <a href="#slides" class="nav-link">Performance e-sports</a>
+                </h1>
+                <button class="navbar-toggler ms-2" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre" class="nav-link">
+                            <i class="bi bi-display me-1"></i>
+                            Nossa história
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#clientes" class="nav-link">
+                            <i class="bi bi-file-person me-1"></i>
+                            Clientes
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#servicos" class="nav-link">
+                            <i class="bi bi-pc-display me-1"></i>
+                            Serviços
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="slides">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./imagens/carousel/sk.jpg" class="d-block w-100" alt="Foto da SK gaming">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./imagens/carousel/imp.avif" class="d-block w-100" alt="Foto da Imperial counter strike">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./imagens/carousel/loud.jpg" class="d-block w-100" alt="Foto da Loud valorant">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./imagens/carousel/major.jpg" class="d-block w-100" alt="Foto do Major de Counter Strike">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./imagens/carousel/valorant.jpg" class="d-block w-100" alt="Foto do Champions de Valorant">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./imagens/carousel/cs2.jpg" class="d-block w-100" alt="Capa do jogo cs2">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./imagens/carousel/vava.jpg" class="d-block w-100" alt="Capa do jogo Valorant">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="5"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="6"></button>
+                </div>
+            </div>
+        </section>
+        <section id="sobre">
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="section-title text-center mb-5">Nossa <span class="text-colored">história</span></h2>
+                        <div class="col-md-5">
+                            <img src="imagens/empresa/programador.webp" class="d-block w-100 rounded" alt="Imagem de um programador">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">O <span class="text-colored">início</span></h2>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores maiores eos tempora! Nesciunt recusandae nemo natus! Eius animi obcaecati tenetur, doloribus sint dicta sit! Provident corporis temporibus assumenda reprehenderit nesciunt!
+                            </p>
+                            <h3 class="section-title">O <span class="text-colored">sonho</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ad eveniet, libero ullam explicabo accusamus est maiores earum molestiae, sed dolores ipsa architecto incidunt quo quasi aliquam odio provident ipsam.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="clientes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Atendemos <span class="text-colored">os melhores</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="carousel slide" data-bs-ride="carousel" id="carousel-jogadores">
+                            <div class="carousel-inner rounded mb-2">
+                                <div class="carousel-item active" data-bs-interval="3000">
+                                    <img src="./imagens/carousel/jogo1.jpg" class="d-block w-100" alt="Imagem 1">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="./imagens/carousel/jogo2.jpg" class="d-block w-100" alt="Imagem 2">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="./imagens/carousel/jogo1.jpg" class="d-block w-100" alt="Imagem 1">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="./imagens/carousel/jogo2.jpg" class="d-block w-100" alt="Imagem 2">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-jogadores" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel-jogadores" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carousel-jogadores" class="active" data-bs-slide-to="0"></button>
+                                <button type="button" data-bs-target="#carousel-jogadores" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#carousel-jogadores" data-bs-slide-to="2"></button>
+                                <button type="button" data-bs-target="#carousel-jogadores" data-bs-slide-to="3"></button>
+                            </div>
+                        </div>
+                        <h3 class="section-title text-center text-colored pt-2 fs-4">
+                            <i class="bi bi-mouse"></i>
+                            Jogadores profissionais
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus corrupti, totam, corporis debitis mollitia quidem ullam laboriosam aut nulla magni architecto eligendi? Quis nam dicta qui. Exercitationem facilis aliquid et!
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="carousel slide" data-bs-ride="carousel" id="carousel-equipes">
+                            <div class="carousel-inner rounded mb-2">
+                                <div class="carousel-item active" data-bs-interval="2000">
+                                    <img src="./imagens/empresa/gen1.jpg" class="d-block w-100" alt="Imagem 1">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="./imagens/empresa/gen2.avif" class="d-block w-100" alt="Imagem 2">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="./imagens/empresa/gen3.avif" class="d-block w-100" alt="Imagem 3">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-equipes" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel-equipes" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carousel-equipes" class="active" data-bs-slide-to="0"></button>
+                                <button type="button" data-bs-target="#carousel-equipes" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#carousel-equipes" data-bs-slide-to="2"></button>
+                            </div>
+                        </div>
+                        <h3 class="section-title text-center text-colored pt-2 fs-4">
+                            <i class="bi bi-shield-shaded"></i>
+                            Equipes
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae esse officiis explicabo quae ipsam mollitia tenetur itaque, consequuntur quisquam necessitatibus nisi expedita eius architecto dolorem repellendus veniam iste debitis aliquid?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="carousel slide" data-bs-ride="carousel" id="carousel-streamers">
+                            <div class="carousel-inner rounded mb-2">
+                                <div class="carousel-item active" data-bs-interval="3000">
+                                    <img src="./imagens/carousel/jogo1.jpg" class="d-block w-100" alt="Imagem 1">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="./imagens/carousel/jogo2.jpg" class="d-block w-100" alt="Imagem 2">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="./imagens/carousel/jogo1.jpg" class="d-block w-100" alt="Imagem 1">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="./imagens/carousel/jogo2.jpg" class="d-block w-100" alt="Imagem 2">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-streamers" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel-streamers" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carousel-streamers" class="active" data-bs-slide-to="0"></button>
+                                <button type="button" data-bs-target="#carousel-streamers" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#carousel-streamers" data-bs-slide-to="2"></button>
+                                <button type="button" data-bs-target="#carousel-streamers" data-bs-slide-to="3"></button>
+                            </div>
+                        </div>
+                        <h3 class="section-title text-center text-colored pt-2 fs-4">
+                            <i class="bi bi-twitch"></i>
+                            Streamers
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae esse officiis explicabo quae ipsam mollitia tenetur itaque, consequuntur quisquam necessitatibus nisi expedita eius architecto dolorem repellendus veniam iste debitis aliquid?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="servicos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nossos <span class="text-colored">serviços</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <aside>
+                            <nav class="nav nav-pills flex-column nav-servicos">
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#otimizacao" class="fw-bold text-start nav-link text-colored active">Otimização</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#manutencao" class="fw-bold text-start nav-link text-colored">Manutenção</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#consultoria" class="fw-bold text-start nav-link text-colored">Consultoria</button>
+                            </nav>
+                        </aside>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="tab-content m-2">
+                            <div class="tab-pane active" id="otimizacao">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <h5 class="fw-bold mt-2">
+                                            <i class="bi bi-microsoft"></i>
+                                            <span class="text-colored">Windows</span>
+                                        </h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat veritatis reprehenderit veniam laboriosam sit eveniet autem quas blanditiis ullam, nesciunt voluptatibus ab possimus a provident voluptatum nemo explicabo commodi delectus.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h5 class="fw-bold mt-2">
+                                            <i class="bi bi-motherboard"></i>
+                                            <span class="text-colored">UEFI/BIOS</span>
+                                        </h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat veritatis reprehenderit veniam laboriosam sit eveniet autem quas blanditiis ullam, nesciunt voluptatibus ab possimus a provident voluptatum nemo explicabo commodi delectus.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h5 class="fw-bold mt-2">
+                                            <i class="bi bi-pc-display-horizontal"></i>
+                                            <span class="text-colored">Jogos</span>
+                                        </h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat veritatis reprehenderit veniam laboriosam sit eveniet autem quas blanditiis ullam, nesciunt voluptatibus ab possimus a provident voluptatum nemo explicabo commodi delectus.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h5 class="fw-bold mt-2">
+                                            <i class="bi bi-box2-heart-fill"></i>
+                                            <span class="text-colored">Pacote completo</span>
+                                        </h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat veritatis reprehenderit veniam laboriosam sit eveniet autem quas blanditiis ullam, nesciunt voluptatibus ab possimus a provident voluptatum nemo explicabo commodi delectus.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h5 class="fw-bold mt-2">
+                                            <i class="bi bi-box2-heart-fill"></i>
+                                            <span class="text-colored">Pacote completo</span>
+                                        </h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat veritatis reprehenderit veniam laboriosam sit eveniet autem quas blanditiis ullam, nesciunt voluptatibus ab possimus a provident voluptatum nemo explicabo commodi delectus.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="manutencao">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <h5 class="fw-bold mt-2">
+                                            <i class="bi bi-bookmark-check"></i>
+                                            <span class="text-colored">Pontual</span>
+                                        </h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat veritatis reprehenderit veniam laboriosam sit eveniet autem quas blanditiis ullam, nesciunt voluptatibus ab possimus a provident voluptatum nemo explicabo commodi delectus.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h5 class="fw-bold mt-2">
+                                            <i class="bi bi-bookmarks"></i>
+                                            <span class="text-colored">Sazonal</span>
+                                        </h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat veritatis reprehenderit veniam laboriosam sit eveniet autem quas blanditiis ullam, nesciunt voluptatibus ab possimus a provident voluptatum nemo explicabo commodi delectus.
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="col-md-3">
+                                        <h5 class="fw-bold mt-2">
+                                            <i class="bi bi-bookmark-star-fill"></i>
+                                            <span class="text-colored">Plantão</span>
+                                        </h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat veritatis reprehenderit veniam laboriosam sit eveniet autem quas blanditiis ullam, nesciunt voluptatibus ab possimus a provident voluptatum nemo explicabo commodi delectus.
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="consultoria">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <h5 class="fw-bold mt-2">
+                                            <i class="bi bi-card-checklist"></i>
+                                            <span class="text-colored">Plano 1</span>
+                                        </h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat veritatis reprehenderit veniam laboriosam sit eveniet autem quas blanditiis ullam, nesciunt voluptatibus ab possimus a provident voluptatum nemo explicabo commodi delectus.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h5 class="fw-bold mt-2">
+                                            <i class="bi bi-card-heading"></i>
+                                            <span class="text-colored">Plano 2</span>
+                                        </h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat veritatis reprehenderit veniam laboriosam sit eveniet autem quas blanditiis ullam, nesciunt voluptatibus ab possimus a provident voluptatum nemo explicabo commodi delectus.
+                                        </p>
+                                    </div>
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>  
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mb-5">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-person-badge-fill"></i>
+                            Cadastro:
+                        </h3>
+                        <form class="mt-5">
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row text-center">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mt-5">
+                                <ul class="social-links">
+                                    <li class="fs-5 me-1">
+                                        <a href="#">
+                                            <i class="bi bi-twitter text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5 me-1">
+                                        <a href="#">
+                                            <i class="bi bi-instagram text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5 me-1">
+                                        <a href="#">
+                                            <i class="bi bi-whatsapp text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5 me-1">
+                                        <a href="#">
+                                            <i class="bi bi-twitch text-colored"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 col-12 rounded">
+                                <div class="container mt-5 ratio ratio-16x9">
+                                    <!-- Incorporação de um canal ao vivo do Twitch -->
+                                    <iframe
+                                        src="https://player.twitch.tv/?channel=nome_do_canal&parent=seusite.com"
+                                        allowfullscreen="true">
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
